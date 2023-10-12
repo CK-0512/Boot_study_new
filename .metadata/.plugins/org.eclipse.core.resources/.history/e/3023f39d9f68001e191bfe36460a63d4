@@ -1,0 +1,7 @@
+package com.example.exDBTest.dbTest;
+
+import org.springframework.boot.test.context.SpringBootTest;
+
+public class DBTest {
+	System.out.println("1234");
+}

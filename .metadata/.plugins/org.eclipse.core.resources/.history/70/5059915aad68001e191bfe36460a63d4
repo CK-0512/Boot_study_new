@@ -1,0 +1,5 @@
+package com.example.exDBTest.domain;
+
+public class TestDTO {
+
+}

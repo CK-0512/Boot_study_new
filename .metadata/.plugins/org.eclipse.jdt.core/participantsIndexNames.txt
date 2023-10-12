@@ -1,0 +1,3 @@
+INDEX VERSION 1.134
+C:\Users\ø¿√¢±‚\programing\sts_jsl\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\503112278.index
+\exDBTest\src\main\java
