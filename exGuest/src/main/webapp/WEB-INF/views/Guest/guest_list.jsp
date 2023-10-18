@@ -70,7 +70,7 @@
 				</table>
 			</td>
 			<td width="25%" align="right">
-			<a href=""><img src="/img/write.gif" border="0"></a>
+			<a href="/Guest/guest_write"><img src="/img/write.gif" border="0"></a>
 			</td>
 		</tr>
 	</table>

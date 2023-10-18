@@ -6,25 +6,25 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.jslhrd.exguest.controller.GuestController;
 import com.jslhrd.exguest.mapper.GuestMapper;
 
 @SpringBootTest
 public class GuestMapperTest {
-	private static final Logger log =
-			LoggerFactory.getLogger(GuestController.class);
+	private static final Logger log = 
+			LoggerFactory.getLogger(GuestMapperTest.class);
 
 	@Autowired
 	private GuestMapper mapper;
 /*	
 	@Test
-	public void guestCountTest() {
-		int cnt = mapper.guestCount();
-		log.info("Guest Count : " + cnt);
+	public void guestCount() {
+		int count = mapper.guestCount();
+		log.info("Total Count : " + count);
 	}
 */
 	@Test
-	public void guestListTest() {
+	public void guestList() {
 		mapper.guestList().forEach(guest->log.info(guest.toString()));
 	}
+
 }

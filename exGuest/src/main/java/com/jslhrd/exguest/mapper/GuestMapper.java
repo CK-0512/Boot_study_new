@@ -11,6 +11,19 @@ public interface GuestMapper {
 	//전체 게시글 수 카운트
 	public int guestCount();
 	
-	//게시글 전체 목록
+	//전체 글 목록
 	public List<GuestDTO> guestList();
+	
+	//글 등록
+	public int guestWrite(GuestDTO dto);
+	
+	//idx에 해당하는 글 검색(view에서 사용)
+	public GuestDTO guestSearch(int idx);
+	
+	//수정처리
+	public int guestModify(GuestDTO dto);
+	
+	//삭제
+	public int guestDelete(int idx);
+	
 }
