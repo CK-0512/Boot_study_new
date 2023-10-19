@@ -1,9 +1,0 @@
-package com.example.exDBTest.dbTest;
-
-import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
-public class DBTest {
-	
-	String abc = "123";
-}

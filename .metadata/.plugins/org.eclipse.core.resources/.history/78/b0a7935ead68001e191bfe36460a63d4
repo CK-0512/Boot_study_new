@@ -1,6 +1,0 @@
-package com.example.exDBTest.domain;
-
-public class TestDTO {
-	private String name;
-	private int age;
-}
