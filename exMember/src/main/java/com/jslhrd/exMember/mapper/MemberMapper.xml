@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jslhrd.exMember.mapper.MemberMapper">
+	<!-- 전체 게시글 카운트 -->
+	<select id="memberCount">
+		select count(*) from tbl_member
+	</select>
+	
+	<!-- 전체 게시글 목록 -->
+	<select id="memberList" resultType="com.jslhrd.exMember.domain.MemberDTO">
+		select * from tbl_member
+	</select>
+	
+	<!-- 게시글 등록 -->
+	<insert id="memberWrite" >
+		insert into tbl_member(idx, name, email, pass, subject, contents) 
+					values(tbl_member_seq_idx.nextval, #{name},#{email},#{pass},#{subject},#{contents})
+	</insert>
+
+	<!-- 게시글 조회수 증가 -->
+	<update id="memberHits" >
+		update tbl_member set readcnt = readcnt + 1 
+						where idx=#{idx}
+	</update>
+	
+	<!-- 특정글 검색(view, modify) -->
+	<select id="memberSelect" resultType="com.jslhrd.exMember.domain.MemberDTO">
+		select * from tbl_member where idx = #{idx}
+	</select>
+	
+	<!-- 게시글 수정 -->
+	<update id="memberModify" >
+		update tbl_member set email=#{email}, sublect=#{subject}, contents=#{contents}
+					where idx=#{idx} and pass=#{pass}
+	</update>
+	
+	<!-- 게시글 삭제 -->
+	<delete id="memberDelete" >
+		delete from tbl_member where idx=#{idx} and pass=#{pass}
+	</delete>
+	
+	
+	
+</mapper>
