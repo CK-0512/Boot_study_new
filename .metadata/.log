@@ -8293,3 +8293,2127 @@ java.lang.Exception: Resolve classpath: unable to resolve a Java project from : 
 
 !ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-20 09:43:39.651
 !MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+!SESSION 2023-10-23 09:25:54.746 -----------------------------------------------
+eclipse.buildId=4.20.0.202309081654
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-23 09:25:57.560
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-10-23 09:26:15.093
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-23 09:26:15.093
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2023-10-23 09:26:23.335
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-23 09:26:23.335
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.text.delete.line"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.match_pair_outward,Match Pair Outward,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		WorkbenchHandlerServiceHandler("io.emmet.eclipse.commands.match_pair_outward"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-23 09:26:23.554
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\오창기'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 09:26:23.860
+!MESSAGE Boot project ADDED: exBoard
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 09:26:23.860
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 09:26:23.882
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 09:26:23.882
+!MESSAGE Boot project ADDED: exDBTest
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 09:26:23.883
+!MESSAGE Boot project ADDED: exGuest
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 09:26:23.883
+!MESSAGE Boot project ADDED: exMember
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 09:26:23.883
+!MESSAGE Boot project ADDED: exam01
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-23 09:26:23.910
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\My Works\sts-4.20.0.RELEASE(JSL)\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin\javaw.exe
+-cp
+C:\My Works\sts-4.20.0.RELEASE(JSL)\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes;C:\My Works\sts-4.20.0.RELEASE(JSL)\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\My Works\sts-4.20.0.RELEASE(JSL)\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/오창기/programing/sts_jsl/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1698020783909
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 09:26:23.910
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-23 09:26:23.919
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 31940
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 09:26:24.321
+!MESSAGE Classpath changed for project: exBoard
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 09:30:41.953
+!MESSAGE Classpath changed for project: exService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 09:30:47.511
+!MESSAGE Classpath changed for project: exService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 09:30:47.512
+!MESSAGE Boot project ADDED: exService
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-23 09:31:14.228
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-23 09:31:14.229
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-23 09:31:14.230
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-23 09:31:14.231
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-23 09:31:14.237
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-23 09:31:14.240
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.jface 2 0 2023-10-23 09:31:14.904
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-23 09:31:14.904
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-23 09:31:14.904
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.addBlockCommentCommand,Add Block Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.addBlockCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.toggle_comment,Toggle Comment,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		WorkbenchHandlerServiceHandler("io.emmet.eclipse.commands.toggle_comment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 09:51:00.107
+!MESSAGE Classpath changed for project: exService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 09:51:00.108
+!MESSAGE Boot project REMOVED: exService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-10-23 09:51:00.113
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): exService does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:550)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2567)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2445)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2488)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:428)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-10-23 09:51:00.114
+!MESSAGE exService does not exist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 09:51:29.395
+!MESSAGE Classpath changed for project: exGuestService
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-23 09:51:29.455
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-23 09:51:29.456
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-23 09:51:29.457
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-23 09:51:29.457
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-23 09:51:29.464
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-23 09:51:29.466
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 09:51:29.634
+!MESSAGE Classpath changed for project: exGuestService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 09:51:34.633
+!MESSAGE Classpath changed for project: exGuestService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 09:51:34.634
+!MESSAGE Boot project ADDED: exGuestService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-23 09:51:59.224
+!MESSAGE Failed to fetch type data for element witn key: Ljava/lang/String;
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-10-23 09:51:59.224
+!MESSAGE Resolve classpath: unable to resolve a Java project from : file:/C:/Users/%EC%98%A4%EC%B0%BD%EA%B8%B0/programing/sts_jsl/exGuest
+!STACK 0
+java.lang.Exception: Resolve classpath: unable to resolve a Java project from : file:/C:/Users/%EC%98%A4%EC%B0%BD%EA%B8%B0/programing/sts_jsl/exGuest
+	at org.springframework.tooling.jdt.ls.commons.resources.ResourceUtils.getJavaProject(ResourceUtils.java:60)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.findElement(JavaData.java:79)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.typeData(JavaData.java:67)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$16(STS4LanguageClientImpl.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-23 09:52:04.109
+!MESSAGE Failed to fetch type data for element witn key: Ljava/lang/String;
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-10-23 09:52:04.109
+!MESSAGE Resolve classpath: unable to resolve a Java project from : file:/C:/Users/%EC%98%A4%EC%B0%BD%EA%B8%B0/programing/sts_jsl/exGuestService
+!STACK 0
+java.lang.Exception: Resolve classpath: unable to resolve a Java project from : file:/C:/Users/%EC%98%A4%EC%B0%BD%EA%B8%B0/programing/sts_jsl/exGuestService
+	at org.springframework.tooling.jdt.ls.commons.resources.ResourceUtils.getJavaProject(ResourceUtils.java:60)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.findElement(JavaData.java:79)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.typeData(JavaData.java:67)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$16(STS4LanguageClientImpl.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 10:04:42.608
+!MESSAGE Classpath changed for project: exGuestService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 10:04:42.608
+!MESSAGE Boot project REMOVED: exGuestService
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-23 10:04:42.623
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-23 10:04:42.623
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-23 10:04:42.624
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-23 10:04:42.624
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-23 10:04:42.627
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-23 10:04:42.628
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY Activator 2 0 2023-10-23 10:04:44.426
+!MESSAGE Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\main\java\com\jslhrd\exguest\service\GuestService.java.
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\main\java\com\jslhrd\exguest\service\GuestService.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1210)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\main\java\com\jslhrd\exguest\service\GuestService.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	... 27 more
+Caused by: java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\main\java\com\jslhrd\exguest\service\GuestService.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 30 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/exGuestService/src/main/java/com/jslhrd/exguest/service/GuestService.java)[368]: java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\main\java\com\jslhrd\exguest\service\GuestService.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-10-23 10:04:44.428
+!MESSAGE File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\main\java\com\jslhrd\exguest\service\GuestService.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/exGuestService/src/main/java/com/jslhrd/exguest/service/GuestService.java)[368]: java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\main\java\com\jslhrd\exguest\service\GuestService.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2023-10-23 10:04:44.429
+!MESSAGE File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\main\java\com\jslhrd\exguest\service\GuestService.java.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\main\java\com\jslhrd\exguest\service\GuestService.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 2 0 2023-10-23 10:04:44.430
+!MESSAGE Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\main\java\com\jslhrd\exguest\service\GuestServiceImpl.java.
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\main\java\com\jslhrd\exguest\service\GuestServiceImpl.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1210)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\main\java\com\jslhrd\exguest\service\GuestServiceImpl.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	... 27 more
+Caused by: java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\main\java\com\jslhrd\exguest\service\GuestServiceImpl.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 30 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/exGuestService/src/main/java/com/jslhrd/exguest/service/GuestServiceImpl.java)[368]: java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\main\java\com\jslhrd\exguest\service\GuestServiceImpl.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-10-23 10:04:44.430
+!MESSAGE File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\main\java\com\jslhrd\exguest\service\GuestServiceImpl.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/exGuestService/src/main/java/com/jslhrd/exguest/service/GuestServiceImpl.java)[368]: java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\main\java\com\jslhrd\exguest\service\GuestServiceImpl.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2023-10-23 10:04:44.431
+!MESSAGE File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\main\java\com\jslhrd\exguest\service\GuestServiceImpl.java.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\main\java\com\jslhrd\exguest\service\GuestServiceImpl.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 2 0 2023-10-23 10:04:44.433
+!MESSAGE Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\ExGuestApplicationTests.java.
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\ExGuestApplicationTests.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1210)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\ExGuestApplicationTests.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	... 27 more
+Caused by: java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\ExGuestApplicationTests.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 30 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/exGuestService/src/test/java/com/jslhrd/exguest/ExGuestApplicationTests.java)[368]: java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\ExGuestApplicationTests.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-10-23 10:04:44.433
+!MESSAGE File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\ExGuestApplicationTests.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/exGuestService/src/test/java/com/jslhrd/exguest/ExGuestApplicationTests.java)[368]: java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\ExGuestApplicationTests.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2023-10-23 10:04:44.433
+!MESSAGE File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\ExGuestApplicationTests.java.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\ExGuestApplicationTests.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 2 0 2023-10-23 10:04:44.435
+!MESSAGE Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\dbtest\DataSourceTest.java.
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\dbtest\DataSourceTest.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1210)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\dbtest\DataSourceTest.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	... 27 more
+Caused by: java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\dbtest\DataSourceTest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 30 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/exGuestService/src/test/java/com/jslhrd/exguest/dbtest/DataSourceTest.java)[368]: java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\dbtest\DataSourceTest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-10-23 10:04:44.435
+!MESSAGE File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\dbtest\DataSourceTest.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/exGuestService/src/test/java/com/jslhrd/exguest/dbtest/DataSourceTest.java)[368]: java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\dbtest\DataSourceTest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2023-10-23 10:04:44.435
+!MESSAGE File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\dbtest\DataSourceTest.java.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\dbtest\DataSourceTest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 2 0 2023-10-23 10:04:44.436
+!MESSAGE Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\mappertest\GuestMapperTest.java.
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\mappertest\GuestMapperTest.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1210)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\mappertest\GuestMapperTest.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	... 27 more
+Caused by: java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\mappertest\GuestMapperTest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 30 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/exGuestService/src/test/java/com/jslhrd/exguest/mappertest/GuestMapperTest.java)[368]: java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\mappertest\GuestMapperTest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-10-23 10:04:44.437
+!MESSAGE File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\mappertest\GuestMapperTest.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/exGuestService/src/test/java/com/jslhrd/exguest/mappertest/GuestMapperTest.java)[368]: java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\mappertest\GuestMapperTest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2023-10-23 10:04:44.437
+!MESSAGE File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\mappertest\GuestMapperTest.java.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java\com\jslhrd\exguest\mappertest\GuestMapperTest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:298)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:304)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:290)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:259)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:975)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:641)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.xml.namespaces 4 0 2023-10-23 10:04:44.553
+!MESSAGE Plugin.internal_error
+!STACK 0
+java.io.FileNotFoundException: C:\Users\오창기\programing\sts_jsl\exGuestService\src\main\resources (지정된 파일을 찾을 수 없습니다)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+	at java.base/java.net.URL.openStream(URL.java:1161)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.fetchResourceFromZip(FilteringURLResourceLoader.java:229)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.buildIndex(FilteringURLResourceLoader.java:173)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.ensureIndexed(FilteringURLResourceLoader.java:137)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.getResourcesCollection(FilteringURLResourceLoader.java:102)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.lambda$1(FilteringURLResourceLoader.java:258)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:46)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8143)
+	at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:207)
+	at reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:80)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4105)
+	at reactor.core.publisher.Mono.block(Mono.java:1662)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.PropertiesLoaderUtils.loadAllProperties(PropertiesLoaderUtils.java:88)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.getSchemaMappings(ProjectClasspathUriResolver.java:201)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.init(ProjectClasspathUriResolver.java:123)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.<init>(ProjectClasspathUriResolver.java:55)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver$1.call(ProjectClasspathExtensibleUriResolver.java:174)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver$1.call(ProjectClasspathExtensibleUriResolver.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver.getProjectResolver(ProjectClasspathExtensibleUriResolver.java:189)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver.resolve(ProjectClasspathExtensibleUriResolver.java:111)
+	at org.eclipse.wst.common.uriresolver.internal.ExtensibleURIResolver.resolve(ExtensibleURIResolver.java:86)
+	at org.eclipse.wst.xml.core.internal.validation.ValidatorHelper$MyContentHandler.startElement(ValidatorHelper.java:313)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.impl.dtd.XMLDTDValidator.startElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentScannerImpl$ContentDispatcher.scanRootElementHook(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.eclipse.wst.xml.core.internal.validation.ValidatorHelper.computeValidationInformation(ValidatorHelper.java:191)
+	at org.eclipse.wst.xml.core.internal.validation.XMLValidator.validate(XMLValidator.java:338)
+	at org.eclipse.wst.xml.core.internal.validation.eclipse.Validator.validate(Validator.java:97)
+	at org.eclipse.wst.xml.core.internal.validation.core.AbstractNestedValidator.validate(AbstractNestedValidator.java:283)
+	at org.eclipse.wst.xml.core.internal.validation.core.AbstractNestedValidator.validate(AbstractNestedValidator.java:88)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.xml.namespaces 4 0 2023-10-23 10:04:44.556
+!MESSAGE Plugin.internal_error
+!STACK 0
+java.io.FileNotFoundException: C:\Users\오창기\programing\sts_jsl\exGuestService\src\test\java (지정된 경로를 찾을 수 없습니다)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+	at java.base/java.net.URL.openStream(URL.java:1161)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.fetchResourceFromZip(FilteringURLResourceLoader.java:229)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.buildIndex(FilteringURLResourceLoader.java:173)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.ensureIndexed(FilteringURLResourceLoader.java:137)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.getResourcesCollection(FilteringURLResourceLoader.java:102)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.lambda$1(FilteringURLResourceLoader.java:258)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:46)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8143)
+	at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:207)
+	at reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:80)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4105)
+	at reactor.core.publisher.Mono.block(Mono.java:1662)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.PropertiesLoaderUtils.loadAllProperties(PropertiesLoaderUtils.java:88)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.getSchemaMappings(ProjectClasspathUriResolver.java:201)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.init(ProjectClasspathUriResolver.java:123)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.<init>(ProjectClasspathUriResolver.java:55)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver$1.call(ProjectClasspathExtensibleUriResolver.java:174)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver$1.call(ProjectClasspathExtensibleUriResolver.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver.getProjectResolver(ProjectClasspathExtensibleUriResolver.java:189)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver.resolve(ProjectClasspathExtensibleUriResolver.java:111)
+	at org.eclipse.wst.common.uriresolver.internal.ExtensibleURIResolver.resolve(ExtensibleURIResolver.java:86)
+	at org.eclipse.wst.xml.core.internal.validation.ValidatorHelper$MyContentHandler.startElement(ValidatorHelper.java:313)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.impl.dtd.XMLDTDValidator.startElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentScannerImpl$ContentDispatcher.scanRootElementHook(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.eclipse.wst.xml.core.internal.validation.ValidatorHelper.computeValidationInformation(ValidatorHelper.java:191)
+	at org.eclipse.wst.xml.core.internal.validation.XMLValidator.validate(XMLValidator.java:338)
+	at org.eclipse.wst.xml.core.internal.validation.eclipse.Validator.validate(Validator.java:97)
+	at org.eclipse.wst.xml.core.internal.validation.core.AbstractNestedValidator.validate(AbstractNestedValidator.java:283)
+	at org.eclipse.wst.xml.core.internal.validation.core.AbstractNestedValidator.validate(AbstractNestedValidator.java:88)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.xml.namespaces 4 0 2023-10-23 10:04:44.557
+!MESSAGE Plugin.internal_error
+!STACK 0
+java.io.FileNotFoundException: C:\Users\오창기\programing\sts_jsl\exGuestService\target\test-classes (지정된 파일을 찾을 수 없습니다)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+	at java.base/java.net.URL.openStream(URL.java:1161)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.fetchResourceFromZip(FilteringURLResourceLoader.java:229)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.buildIndex(FilteringURLResourceLoader.java:173)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.ensureIndexed(FilteringURLResourceLoader.java:137)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.getResourcesCollection(FilteringURLResourceLoader.java:102)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.lambda$1(FilteringURLResourceLoader.java:258)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:46)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8143)
+	at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:207)
+	at reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:80)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4105)
+	at reactor.core.publisher.Mono.block(Mono.java:1662)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.PropertiesLoaderUtils.loadAllProperties(PropertiesLoaderUtils.java:88)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.getSchemaMappings(ProjectClasspathUriResolver.java:201)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.init(ProjectClasspathUriResolver.java:123)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.<init>(ProjectClasspathUriResolver.java:55)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver$1.call(ProjectClasspathExtensibleUriResolver.java:174)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver$1.call(ProjectClasspathExtensibleUriResolver.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver.getProjectResolver(ProjectClasspathExtensibleUriResolver.java:189)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver.resolve(ProjectClasspathExtensibleUriResolver.java:111)
+	at org.eclipse.wst.common.uriresolver.internal.ExtensibleURIResolver.resolve(ExtensibleURIResolver.java:86)
+	at org.eclipse.wst.xml.core.internal.validation.ValidatorHelper$MyContentHandler.startElement(ValidatorHelper.java:313)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.impl.dtd.XMLDTDValidator.startElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentScannerImpl$ContentDispatcher.scanRootElementHook(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.eclipse.wst.xml.core.internal.validation.ValidatorHelper.computeValidationInformation(ValidatorHelper.java:191)
+	at org.eclipse.wst.xml.core.internal.validation.XMLValidator.validate(XMLValidator.java:338)
+	at org.eclipse.wst.xml.core.internal.validation.eclipse.Validator.validate(Validator.java:97)
+	at org.eclipse.wst.xml.core.internal.validation.core.AbstractNestedValidator.validate(AbstractNestedValidator.java:283)
+	at org.eclipse.wst.xml.core.internal.validation.core.AbstractNestedValidator.validate(AbstractNestedValidator.java:88)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.xml.namespaces 4 0 2023-10-23 10:04:44.558
+!MESSAGE Plugin.internal_error
+!STACK 0
+java.io.FileNotFoundException: C:\Users\오창기\programing\sts_jsl\exGuestService\target\test-classes (지정된 파일을 찾을 수 없습니다)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+	at java.base/java.net.URL.openStream(URL.java:1161)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.fetchResourceFromZip(FilteringURLResourceLoader.java:229)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.buildIndex(FilteringURLResourceLoader.java:173)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.ensureIndexed(FilteringURLResourceLoader.java:137)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.getResourcesCollection(FilteringURLResourceLoader.java:102)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.lambda$1(FilteringURLResourceLoader.java:258)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:46)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8143)
+	at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:207)
+	at reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:80)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4105)
+	at reactor.core.publisher.Mono.block(Mono.java:1662)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.PropertiesLoaderUtils.loadAllProperties(PropertiesLoaderUtils.java:88)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.getSchemaMappings(ProjectClasspathUriResolver.java:201)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.init(ProjectClasspathUriResolver.java:123)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.<init>(ProjectClasspathUriResolver.java:55)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver$1.call(ProjectClasspathExtensibleUriResolver.java:174)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver$1.call(ProjectClasspathExtensibleUriResolver.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver.getProjectResolver(ProjectClasspathExtensibleUriResolver.java:189)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver.resolve(ProjectClasspathExtensibleUriResolver.java:111)
+	at org.eclipse.wst.common.uriresolver.internal.ExtensibleURIResolver.resolve(ExtensibleURIResolver.java:86)
+	at org.eclipse.wst.xml.core.internal.validation.ValidatorHelper$MyContentHandler.startElement(ValidatorHelper.java:313)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.impl.dtd.XMLDTDValidator.startElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentScannerImpl$ContentDispatcher.scanRootElementHook(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.eclipse.wst.xml.core.internal.validation.ValidatorHelper.computeValidationInformation(ValidatorHelper.java:191)
+	at org.eclipse.wst.xml.core.internal.validation.XMLValidator.validate(XMLValidator.java:338)
+	at org.eclipse.wst.xml.core.internal.validation.eclipse.Validator.validate(Validator.java:97)
+	at org.eclipse.wst.xml.core.internal.validation.core.AbstractNestedValidator.validate(AbstractNestedValidator.java:283)
+	at org.eclipse.wst.xml.core.internal.validation.core.AbstractNestedValidator.validate(AbstractNestedValidator.java:88)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.xml.namespaces 4 0 2023-10-23 10:04:44.560
+!MESSAGE Plugin.internal_error
+!STACK 0
+java.io.FileNotFoundException: C:\Users\오창기\programing\sts_jsl\exGuestService\target\test-classes (지정된 파일을 찾을 수 없습니다)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+	at java.base/java.net.URL.openStream(URL.java:1161)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.fetchResourceFromZip(FilteringURLResourceLoader.java:229)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.buildIndex(FilteringURLResourceLoader.java:173)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.ensureIndexed(FilteringURLResourceLoader.java:137)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.getResourcesCollection(FilteringURLResourceLoader.java:102)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.FilteringURLResourceLoader.lambda$1(FilteringURLResourceLoader.java:258)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:46)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8143)
+	at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:207)
+	at reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:80)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4105)
+	at reactor.core.publisher.Mono.block(Mono.java:1662)
+	at org.springframework.ide.eclipse.xml.namespaces.classpath.PropertiesLoaderUtils.loadAllProperties(PropertiesLoaderUtils.java:88)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.getSchemaMappings(ProjectClasspathUriResolver.java:201)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.init(ProjectClasspathUriResolver.java:123)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.<init>(ProjectClasspathUriResolver.java:55)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver$1.call(ProjectClasspathExtensibleUriResolver.java:174)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver$1.call(ProjectClasspathExtensibleUriResolver.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver.getProjectResolver(ProjectClasspathExtensibleUriResolver.java:189)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver.resolve(ProjectClasspathExtensibleUriResolver.java:111)
+	at org.eclipse.wst.common.uriresolver.internal.ExtensibleURIResolver.resolve(ExtensibleURIResolver.java:86)
+	at org.eclipse.wst.xml.core.internal.validation.ValidatorHelper$MyContentHandler.startElement(ValidatorHelper.java:313)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.impl.dtd.XMLDTDValidator.startElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentScannerImpl$ContentDispatcher.scanRootElementHook(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.eclipse.wst.xml.core.internal.validation.ValidatorHelper.computeValidationInformation(ValidatorHelper.java:191)
+	at org.eclipse.wst.xml.core.internal.validation.XMLValidator.validate(XMLValidator.java:338)
+	at org.eclipse.wst.xml.core.internal.validation.eclipse.Validator.validate(Validator.java:97)
+	at org.eclipse.wst.xml.core.internal.validation.core.AbstractNestedValidator.validate(AbstractNestedValidator.java:283)
+	at org.eclipse.wst.xml.core.internal.validation.core.AbstractNestedValidator.validate(AbstractNestedValidator.java:88)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 10:05:06.475
+!MESSAGE Classpath changed for project: exGuestService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 10:05:38.460
+!MESSAGE Classpath changed for project: exGuestService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 10:05:38.519
+!MESSAGE Classpath changed for project: exGuestService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 10:05:39.827
+!MESSAGE Classpath changed for project: exGuestService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 10:05:39.828
+!MESSAGE Boot project ADDED: exGuestService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-23 10:05:44.559
+!MESSAGE Failed to fetch type data for element witn key: Ljava/lang/String;
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-10-23 10:05:44.560
+!MESSAGE Resolve classpath: unable to resolve a Java project from : file:/C:/Users/%EC%98%A4%EC%B0%BD%EA%B8%B0/programing/sts_jsl/exGuestService
+!STACK 0
+java.lang.Exception: Resolve classpath: unable to resolve a Java project from : file:/C:/Users/%EC%98%A4%EC%B0%BD%EA%B8%B0/programing/sts_jsl/exGuestService
+	at org.springframework.tooling.jdt.ls.commons.resources.ResourceUtils.getJavaProject(ResourceUtils.java:60)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.findElement(JavaData.java:79)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.typeData(JavaData.java:67)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$16(STS4LanguageClientImpl.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-23 10:05:46.544
+!MESSAGE Failed to fetch type data for element witn key: Lorg/springframework/boot/autoconfigure/jdbc/DataSourceProperties;
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-10-23 10:05:46.544
+!MESSAGE Resolve classpath: unable to resolve a Java project from : file:/C:/Users/%EC%98%A4%EC%B0%BD%EA%B8%B0/programing/sts_jsl/exGuestService
+!STACK 0
+java.lang.Exception: Resolve classpath: unable to resolve a Java project from : file:/C:/Users/%EC%98%A4%EC%B0%BD%EA%B8%B0/programing/sts_jsl/exGuestService
+	at org.springframework.tooling.jdt.ls.commons.resources.ResourceUtils.getJavaProject(ResourceUtils.java:60)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.findElement(JavaData.java:79)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.typeData(JavaData.java:67)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$16(STS4LanguageClientImpl.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-23 10:05:49.483
+!MESSAGE Failed to fetch type data for element witn key: Ljava/lang/String;
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-10-23 10:05:49.484
+!MESSAGE Resolve classpath: unable to resolve a Java project from : file:/C:/Users/%EC%98%A4%EC%B0%BD%EA%B8%B0/programing/sts_jsl/exGuest
+!STACK 0
+java.lang.Exception: Resolve classpath: unable to resolve a Java project from : file:/C:/Users/%EC%98%A4%EC%B0%BD%EA%B8%B0/programing/sts_jsl/exGuest
+	at org.springframework.tooling.jdt.ls.commons.resources.ResourceUtils.getJavaProject(ResourceUtils.java:60)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.findElement(JavaData.java:79)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.typeData(JavaData.java:67)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$16(STS4LanguageClientImpl.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-10-23 10:09:50.146
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-23 10:18:14.222
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.jslhrd.exguest.controller;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.jslhrd.exguest.domain.GuestDTO;
+import com.jslhrd.exguest.service.GuestService;
+
+@Controller
+@RequestMapping("Guest")
+public class GuestController {
+	private static final Logger log = 
+			LoggerFactory.getLogger(GuestController.class);
+
+	@Autowired
+	private GuestService service;
+	
+	@GetMapping("guest_list")
+	public void guestList(Model model) {
+		log.info("Call  :  guest_list ");
+		model.addAttribute("totcount", service.guestCount());
+		model.addAttribute("list", service.guestList());
+	}
+/*	
+	//등록 폼
+	@GetMapping("guest_write")
+	public void guestWrite() {
+		log.info("Call  :  guest_write ");
+	}
+	//등록처리
+	@PostMapping("guest_write")
+	public String guestWritePro(GuestDTO dto) {
+		log.info("Call  :  guest_write ");
+		log.info("dto  :  " + dto);
+		mapper.guestWrite(dto);
+		
+		return "redirect:guest_list";//Controller 경로
+	}
+*/	
+/*
+	//등록처리
+	@PostMapping("guest_write")
+	public String guestWritePro(GuestDTO dto, Model model) {
+		int row = mapper.guestWrite(dto);
+		model.addAttribute("row", row);
+		log.info("Call  :  guest_write 등록처리" );
+		
+		return "Guest/guest_write_pro";//jsp 경로
+	}
+*/
+	@GetMapping("guest_hits")
+	public String guestHits()
+	@GetMapping("guest_view")
+	public void guestView(@RequestParam("idx") int idx, Model model) {
+		log.info("Call  :  guest_view ");
+		model.addAttribute("guest", service.guestSearch(idx));
+		
+	}
+/*
+	//수정 폼
+	@GetMapping("guest_modify")
+	public void guestModify(@RequestParam("idx") int idx, Model model) {
+		log.info("Call  :  guest_modify ");
+		model.addAttribute("guest", mapper.guestSearch(idx));
+	}
+	
+	//수정처리
+	@PostMapping("guest_modify")
+	public String guestModifyPro(GuestDTO guest) {
+		log.info("Call  :  guest_modify_pro ");
+		log.info("dto  :  " + guest);
+		mapper.guestModify(guest);
+		
+		return "redirect:guest_list";
+	}
+	
+	//삭제
+	@GetMapping("guest_delete")
+	public String guestDelete(@RequestParam("idx") int idx) {
+		log.info("Call  :  guest_delete ");
+		mapper.guestDelete(idx);
+		return "redirect:guest_list";
+	}
+*/	
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 1025 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("guest_hits") public String guestHits();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3456)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:584)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1325)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2023-10-23 10:18:14.223
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 1025 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("guest_hits") public String guestHits();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3456)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:584)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1325)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-10-23 10:18:14.224
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 1025 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("guest_hits") public String guestHits();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3456)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:584)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1325)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-23 10:18:15.152
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.jslhrd.exguest.controller;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.jslhrd.exguest.domain.GuestDTO;
+import com.jslhrd.exguest.service.GuestService;
+
+@Controller
+@RequestMapping("Guest")
+public class GuestController {
+	private static final Logger log = 
+			LoggerFactory.getLogger(GuestController.class);
+
+	@Autowired
+	private GuestService service;
+	
+	@GetMapping("guest_list")
+	public void guestList(Model model) {
+		log.info("Call  :  guest_list ");
+		model.addAttribute("totcount", service.guestCount());
+		model.addAttribute("list", service.guestList());
+	}
+/*	
+	//등록 폼
+	@GetMapping("guest_write")
+	public void guestWrite() {
+		log.info("Call  :  guest_write ");
+	}
+	//등록처리
+	@PostMapping("guest_write")
+	public String guestWritePro(GuestDTO dto) {
+		log.info("Call  :  guest_write ");
+		log.info("dto  :  " + dto);
+		mapper.guestWrite(dto);
+		
+		return "redirect:guest_list";//Controller 경로
+	}
+*/	
+/*
+	//등록처리
+	@PostMapping("guest_write")
+	public String guestWritePro(GuestDTO dto, Model model) {
+		int row = mapper.guestWrite(dto);
+		model.addAttribute("row", row);
+		log.info("Call  :  guest_write 등록처리" );
+		
+		return "Guest/guest_write_pro";//jsp 경로
+	}
+*/
+	@GetMapping("guest_hits")
+	public String guestHits(
+	@GetMapping("guest_view")
+	public void guestView(@RequestParam("idx") int idx, Model model) {
+		log.info("Call  :  guest_view ");
+		model.addAttribute("guest", service.guestSearch(idx));
+		
+	}
+/*
+	//수정 폼
+	@GetMapping("guest_modify")
+	public void guestModify(@RequestParam("idx") int idx, Model model) {
+		log.info("Call  :  guest_modify ");
+		model.addAttribute("guest", mapper.guestSearch(idx));
+	}
+	
+	//수정처리
+	@PostMapping("guest_modify")
+	public String guestModifyPro(GuestDTO guest) {
+		log.info("Call  :  guest_modify_pro ");
+		log.info("dto  :  " + guest);
+		mapper.guestModify(guest);
+		
+		return "redirect:guest_list";
+	}
+	
+	//삭제
+	@GetMapping("guest_delete")
+	public String guestDelete(@RequestParam("idx") int idx) {
+		log.info("Call  :  guest_delete ");
+		mapper.guestDelete(idx);
+		return "redirect:guest_list";
+	}
+*/	
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 1025 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("guest_hits") public String guestHits();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3456)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:584)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1325)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2023-10-23 10:18:15.152
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 1025 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("guest_hits") public String guestHits();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3456)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:584)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1325)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-10-23 10:18:15.153
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 1025 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("guest_hits") public String guestHits();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3456)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:584)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1325)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-23 10:22:11.533
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.jslhrd.exguest.controller;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.jslhrd.exguest.domain.GuestDTO;
+import com.jslhrd.exguest.service.GuestService;
+
+@Controller
+@RequestMapping("Guest")
+public class GuestController {
+	private static final Logger log = 
+			LoggerFactory.getLogger(GuestController.class);
+
+	@Autowired
+	private GuestService service;
+	
+	@GetMapping("guest_list")
+	public void guestList(Model model) {
+		log.info("Call  :  guest_list ");
+		model.addAttribute("totcount", service.guestCount());
+		model.addAttribute("list", service.guestList());
+	}
+/*	
+	//등록 폼
+	@GetMapping("guest_write")
+	public void guestWrite() {
+		log.info("Call  :  guest_write ");
+	}
+	//등록처리
+	@PostMapping("guest_write")
+	public String guestWritePro(GuestDTO dto) {
+		log.info("Call  :  guest_write ");
+		log.info("dto  :  " + dto);
+		mapper.guestWrite(dto);
+		
+		return "redirect:guest_list";//Controller 경로
+	}
+*/	
+/*
+	//등록처리
+	@PostMapping("guest_write")
+	public String guestWritePro(GuestDTO dto, Model model) {
+		int row = mapper.guestWrite(dto);
+		model.addAttribute("row", row);
+		log.info("Call  :  guest_write 등록처리" );
+		
+		return "Guest/guest_write_pro";//jsp 경로
+	}
+*/
+	@GetMapping("guest_hits")
+	public String guestHits(
+	@GetMapping("guest_view")
+	public void guestView(@RequestParam("idx") int idx, Model model) {
+		log.info("Call  :  guest_view ");
+		model.addAttribute("guest", service.guestSearch(idx));
+		
+	}
+/*
+	//수정 폼
+	@GetMapping("guest_modify")
+	public void guestModify(@RequestParam("idx") int idx, Model model) {
+		log.info("Call  :  guest_modify ");
+		model.addAttribute("guest", mapper.guestSearch(idx));
+	}
+	
+	//수정처리
+	@PostMapping("guest_modify")
+	public String guestModifyPro(GuestDTO guest) {
+		log.info("Call  :  guest_modify_pro ");
+		log.info("dto  :  " + guest);
+		mapper.guestModify(guest);
+		
+		return "redirect:guest_list";
+	}
+	
+	//삭제
+	@GetMapping("guest_delete")
+	public String guestDelete(@RequestParam("idx") int idx) {
+		log.info("Call  :  guest_delete ");
+		mapper.guestDelete(idx);
+		return "redirect:guest_list";
+	}
+*/	
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 1025 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("guest_hits") public String guestHits();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3456)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:584)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1325)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2023-10-23 10:22:11.534
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 1025 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("guest_hits") public String guestHits();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3456)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:584)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1325)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-10-23 10:22:11.535
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException: startPos = 1025 and length is -2.
+This breaks the rule that lengths are not allowed to be negative. Affected Node:
+class org.eclipse.jdt.core.dom.MethodDeclaration: @GetMapping("guest_hits") public String guestHits();
+
+	at lombok.eclipse.agent.PatchDiagnostics.setSourceRangeCheck(PatchDiagnostics.java:36)
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3456)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:584)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1325)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SESSION 2023-10-23 11:44:06.353 -----------------------------------------------
+eclipse.buildId=4.20.0.202309081654
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-23 11:44:08.308
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-10-23 11:44:20.855
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-23 11:44:20.855
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-23 11:44:26.209
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\My Works\sts-4.20.0.RELEASE(JSL)\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin\javaw.exe
+-cp
+C:\My Works\sts-4.20.0.RELEASE(JSL)\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes;C:\My Works\sts-4.20.0.RELEASE(JSL)\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\My Works\sts-4.20.0.RELEASE(JSL)\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/오창기/programing/sts_jsl/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1698029066208
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 11:44:26.210
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-23 11:44:26.223
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 37016
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-23 11:44:26.926
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\오창기'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 11:44:27.104
+!MESSAGE Boot project ADDED: exBoard
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 11:44:27.105
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 11:44:27.108
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 11:44:27.109
+!MESSAGE Boot project ADDED: exDBTest
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 11:44:27.110
+!MESSAGE Boot project ADDED: exGuest
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 11:44:27.111
+!MESSAGE Boot project ADDED: exGuestService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 11:44:27.113
+!MESSAGE Boot project ADDED: exMember
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-23 11:44:27.114
+!MESSAGE Boot project ADDED: exam01
