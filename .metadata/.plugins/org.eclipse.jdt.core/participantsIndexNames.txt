@@ -9,6 +9,8 @@ C:\Users\오창기\programing\sts_jsl\.metadata\.plugins\org.eclipse.jst.jsp.core\j
 \guest\src\main\java
 C:\Users\오창기\programing\sts_jsl\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2215629812.index
 \exService\src\main\java
+C:\Users\오창기\programing\sts_jsl\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\361428003.index
+\exBoardSearchPage\src\main\java
 C:\Users\오창기\programing\sts_jsl\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3882914080.index
 \exBoard\src\main\java
 C:\Users\오창기\programing\sts_jsl\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3064246783.index
@@ -17,6 +19,8 @@ C:\Users\오창기\programing\sts_jsl\.metadata\.plugins\org.eclipse.jst.jsp.core\j
 \exMember\src\main\java
 C:\Users\오창기\programing\sts_jsl\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3462325483.index
 \exService\src\main\java
+C:\Users\오창기\programing\sts_jsl\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\834546864.index
+\exBoardSearchPage\src\main\java
 C:\Users\오창기\programing\sts_jsl\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\111995099.index
 \guest\src\main\java
 C:\Users\오창기\programing\sts_jsl\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1794144963.index

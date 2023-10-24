@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jslhrd.exboard.mapper.BoardMapper">
+	<!-- 전체 게시글 카운트 -->
+	<select id="boardCount">
+		select count(*) from tbl_board
+	</select>
+
+	<!-- 전체 게시글 카운트(검색) -->
+	<select id="boardCountSearch">
+		select count(*) from tbl_board where
+				<choose>
+					<when test="search=='name'">
+						name like '%'||#{key}||'%'
+					</when>
+					<when test="search=='subject'">
+						subject like '%'||#{key}||'%'
+					</when>
+					<when test="search=='contents'">
+						contents like '%'||#{key}||'%'
+					</when>
+				</choose>
+	</select>
+	
+	<!-- 전체 게시글 목록 페이지 X -->
+<!-- 	
+	<select id="boardList" resultType="com.jslhrd.exboard.domain.BoardDTO">
+		select * from tbl_board
+	</select>
+ -->	
+	<!-- 전체 게시글 목록 페이지 O, 검색 X -->
+	<select id="boardList" resultType="com.jslhrd.exboard.domain.BoardDTO">
+		<![CDATA[
+			select X.* from (select rownum as rnum, A.* from 
+				(select * from tbl_board order by idx desc) A
+						where rownum <= #{endpage}) X 
+								where X.rnum >= #{startpage}
+		]]>
+		
+	</select>
+
+	<!-- 전체 게시글 목록 페이지 O, 검색 O -->
+	<select id="boardListSearch" resultType="com.jslhrd.exboard.domain.BoardDTO">
+		select X.* from (select rownum as rnum, A.* from 
+				(select * from tbl_board order by idx desc) A where
+					<choose>
+						<when test="search=='name'">
+							name like '%'||#{key}||'%'
+						</when>
+						<when test="search=='subject'">
+							subject like '%'||#{key}||'%'
+						</when>
+						<when test="search=='contents'">
+							contents like '%'||#{key}||'%'
+						</when>
+					</choose>
+					<trim prefix="AND">
+						<![CDATA[			
+							rownum <= #{endpage}) X where
+						]]>
+					</trim>
+					<choose>
+						<when test="search=='name'">
+							name like '%'||#{key}||'%'
+						</when>
+						<when test="search=='subject'">
+							subject like '%'||#{key}||'%'
+						</when>
+						<when test="search=='contents'">
+							contents like '%'||#{key}||'%'
+						</when>
+					</choose>
+					<trim prefix="AND">
+						<![CDATA[
+		 					X.rnum >= #{startpage}
+		 				]]>
+		 			</trim>
+	</select>
+
+
+	<!-- 게시글 등록 -->
+	<insert id="boardWrite" >
+		insert into tbl_board(idx, name, email, pass, subject, contents) 
+					values(tbl_board_seq_idx.nextval, #{name},#{email},#{pass},#{subject},#{contents})
+	</insert>
+
+	<!-- 게시글 조회수 증가 -->
+	<update id="boardHits" >
+		update tbl_board set readcnt = readcnt + 1 
+						where idx=#{idx}
+	</update>
+	
+	<!-- 특정글 검색(view, modify) -->
+	<select id="boardSelect" resultType="com.jslhrd.exboard.domain.BoardDTO">
+		select * from tbl_board where idx = #{idx}
+	</select>
+	
+	<!-- 게시글 수정 -->
+	<update id="boardModify" >
+		update tbl_board set email=#{email}, sublect=#{subject}, contents=#{contents}
+					where idx=#{idx} and pass=#{pass}
+	</update>
+	
+	<!-- 게시글 삭제 -->
+	<delete id="boardDelete" >
+		delete from tbl_board where idx=#{idx} and pass=#{pass}
+	</delete>
+	
+	
+	
+</mapper>
