@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jslhrd.myMartShop.mapper.MemberMapper">
+	<!-- 아이디 중복처리 -->
+	<select id="memberIDCheck" resultType="int">
+		select count(*) from Member where memberid=#{memberid}
+	</select>
+	<!-- 회원가입 처리 -->
+	<insert id="memberInsert">
+		insert into Member(memberid, pass, m_name, m_tel, age, job)
+			values(#{memberid}, #{pass}, #{m_name}, #{m_tel}, #{age}, #{job})
+	</insert>
+	<!-- 로그인-비밀번호 검색 -->
+	<select id="memberIDPassSearch" resultType="string">
+		select pass from Member where memberid=#{memberid}
+	</select>
+	<!-- 로그인-사용자 정보 검색 -->
+	<select id="memberLogin" resultType="com.jslhrd.myMartShop.domain.MemberDTO">
+		select * from Member where memberid=#{memberid}
+	</select>
+	<!-- 로그인-마지막 접속일자 업데이트 -->
+	<select id="memberLoginUpdate" resultType="com.jslhrd.myMartShop.domain.MemberDTO">
+		update Member set lastlogin=sysdate where memberid=#{memberid}	
+	</select>
+	<!-- 전체 목록 -->
+	<select id="memberList" resultType="com.jslhrd.myMartShop.domain.MemberDTO">
+		select * from Member order by regdate
+	</select>
+</mapper>

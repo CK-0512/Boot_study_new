@@ -34,6 +34,7 @@
 		<item value="org.eclipse.wst.json_ui.feature:1.1.11.v202308160419"/>
 		<item value="org.eclipse.wst.web_ui.feature:3.31.0.v202308210520"/>
 		<item value="org.eclipse.wst.xml_ui.feature:3.31.0.v202308200343"/>
+		<item value="org.insightech.er.feature:1.0.0.v20150619-0219"/>
 		<item value="org.jboss.tools.m2e.wro4j.feature:1.2.1.202301111328"/>
 		<item value="org.sonatype.m2e.egit.feature:0.17.0.202209271423"/>
 	</list>
@@ -57,6 +58,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\오창기\programing\sts_jsl\MyMartShop"/>
 			<item value="C:\Users\오창기\programing\sts_jsl\exPds"/>
 			<item value="C:\Users\오창기\programing\sts_jsl\exUser"/>
 			<item value="C:\Users\오창기\programing\sts_jsl\exBoardSearchPage"/>

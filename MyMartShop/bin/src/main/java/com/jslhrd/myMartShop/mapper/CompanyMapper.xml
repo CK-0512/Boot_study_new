@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jslhrd.myMartShop.mapper.CompanyMapper">
+	<!-- 아이디 중복처리 -->
+	<select id="companyIDCheck" resultType="int">
+		select count(*) from
+		Company where c_name=#{c_name}
+	</select>
+	<!-- 로그인-비밀번호 검색 -->
+	<select id="companyIDPassSearch" resultType="string">
+		select corNum from
+		Company where c_name=#{c_name}
+	</select>
+	<!-- 로그인-사용자 정보 검색 -->
+	<select id="companyLogin"
+		resultType="com.jslhrd.myMartShop.domain.CompanyDTO">
+		select * from Company where c_name=#{c_name}
+	</select>
+</mapper>
